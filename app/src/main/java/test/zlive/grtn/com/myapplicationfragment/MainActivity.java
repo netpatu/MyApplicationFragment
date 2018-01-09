@@ -17,6 +17,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import test.zlive.grtn.com.myapplicationfragment.fragment.FragmemtOne;
 import test.zlive.grtn.com.myapplicationfragment.fragment.FragmemtTwo;
+import test.zlive.grtn.com.myapplicationfragment.fragment.RainingAnimationFragment;
 import test.zlive.grtn.com.myapplicationfragment.util.ActivityUtil;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,10 +29,13 @@ public class MainActivity extends AppCompatActivity {
 
         Fragment fragment01 = new FragmemtOne();
         Fragment fragment02 = new FragmemtTwo();
+        RainingAnimationFragment rainAnimFrag = new RainingAnimationFragment();
+
         ActivityUtil.addFragment2Activity(getSupportFragmentManager(), fragment01, R.id.contentFrame);
         ActivityUtil.replaceFragment2Activity(getSupportFragmentManager(), fragment02, R.id.contentFrame);
+        ActivityUtil.replaceFragment2Activity(getSupportFragmentManager(), rainAnimFrag, R.id.contentFrame);
 
-        intent2WebViewActivity();
+//        intent2WebViewActivity();
 
     }
 

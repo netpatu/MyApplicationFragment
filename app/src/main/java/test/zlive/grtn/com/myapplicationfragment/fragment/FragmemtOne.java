@@ -14,6 +14,9 @@ import test.zlive.grtn.com.myapplicationfragment.R;
  */
 
 public class FragmemtOne extends Fragment {
+
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
