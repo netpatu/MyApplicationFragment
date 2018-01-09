@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.webkit.WebView void addJavascriptInterface(java.lang.Object, java.lang.String)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
