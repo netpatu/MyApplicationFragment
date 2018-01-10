@@ -7,5 +7,10 @@
         android:id="@+id/rain_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+    <test.zlive.grtn.com.myapplicationfragment.view.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

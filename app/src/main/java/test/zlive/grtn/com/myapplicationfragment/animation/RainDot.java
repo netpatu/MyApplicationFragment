@@ -47,12 +47,11 @@ public class RainDot extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         // 1.画直线
-
-        float startX = 10; //起始点X点
-        float stopX = 10; //结束点X
-        float startY = 0;//起始点Y点
-        float stopY = 100; //结束点Y
+//        float startX = 10; //起始点X点
+//        float stopX = 10; //结束点X
+//        float startY = 0;//起始点Y点
+//        float stopY = 100; //结束点Y
         //Paint()是画笔
-        canvas.drawLine(startX, startY, stopX, stopY, mPaint);
+//        canvas.drawLine(startX, startY, stopX, stopY, mPaint);
     }
 }
